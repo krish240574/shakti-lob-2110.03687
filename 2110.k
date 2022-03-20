@@ -19,15 +19,12 @@
  bp:(+o (cols o)[-2+\30#4])[i]
  bpd:100*(bp-tmp`bp0)%tmp`bp0
 
- &0<i*|/'(abs bpd)>1
 
 
+/ scratch code below - can ignore
+ /&0<i*|/'(abs bpd)>1
 / c21:100*(ap-tmp`bp0)%(tmp`bp0) / the mid column gets named as bp0
 / c22:100*(bp-tmp`bp0)%(tmp`bp0)
-
-
-
-
 / i:&2=o`ot 
 / av:+ca!o ca:((.+o)0) 2+-3+\30#4; 
 / av:av[i],'sav:[[]sav:+/'av[i]]
