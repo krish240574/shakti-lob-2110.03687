@@ -1,4 +1,4 @@
- ols:{(.+x)0}
+ cols:{(.+x)0}
  o:+(`$,/',/+$(`ap`as`bp`bs),/:\:$!30)!`csv?1:"ob.csv"
  m:+(`t`ot`oid`sz`p`d)!`csv?1:"msg.csv"
  o: o,'(sav:[[]sav:+/'+o ca:((.+o)0) -3+\30#4])
