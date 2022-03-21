@@ -25,6 +25,7 @@
  kp:(m`p)[&~(m`t)=(0,-1_m`t)]
  kp:log abs 1_(0,-1_kp)%kp
  kp:@[kp;&-0w=kp;0.0]
+ akp:avg kp
 
  kt:(m`t)[&~(m`t)=(0,-1_m`t)]
  kt:1_(kt -(0,-1_kt))
