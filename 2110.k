@@ -28,6 +28,8 @@ f:{
  sqrt((+/(kp-akp)*(kp-akp)%abs kt)%(-1+#kt)) }
 
  m:m,'[[]an:@[(&#m);?,/(ia@&1<f'ana)-\:!200;1]]
+ "m.csv"1:`csv@m
+
 
 
 
