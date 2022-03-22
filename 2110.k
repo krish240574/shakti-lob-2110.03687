@@ -12,8 +12,7 @@
 
  mid:((&/ap)+|/bp)%2.0 
 
- apd:100*((+ap)-mid)%mid; bpd:100*((+bp)-mid)%mid
- c2la:1<|/'apd; c2lb:1<|/'bpd
+ c2la:1<|/'100*((+ap)-mid)%mid; c2lb:1<|/'100*((+bp)-mid)%mid
 
  ia:i@&c1a & c2la             
  ib:i@&c1b & c2lb
