@@ -15,8 +15,8 @@
  apd:100*((+ap)-mid)%mid; bpd:100*((+bp)-mid)%mid
  c2la:1<|/'apd; c2lb:1<|/'bpd
 
- fa:c1a,'c2la; ia:i@&&/'fa
- fb:c1b,'c2lb; ib:i@&&/'fb
+ ia:i@&c1a & c2la             
+ ib:i@&c1b & c2lb
 
  ana:(+m `t`p)[ia-\:!200]; anb:(+m `t`p)[ib-\:!200]
 
