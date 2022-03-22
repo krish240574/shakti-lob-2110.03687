@@ -40,7 +40,7 @@ cols:{(.+x)0}
  ana:(+m `t`p)[ia-\:!200]
  anb:(+m `t`p)[ib-\:!200]
 
-{c:&~x[;0]=0,-1_x[;0];kp:x[;1]@c;akp:avg kp:log abs 1_(0,-1_kp)%kp;kt:x[;0]@c;kt:1_(kt -(0,-1_kt));sqrt((+/(kp-akp)*(kp-akp)%kt)/(-1+#kt))}':ana
+{c:&~x[;0]=0,-1_x[;0];kp:x[;1]@c;akp:avg kp:log abs 1_(0,-1_kp)%kp;kt:x[;0]@c;kt:1_(kt -(0,-1_kt));sqrt((+/(kp-akp)*(kp-akp)%kt)%(-1+#kt))}':ana
 
 
 
