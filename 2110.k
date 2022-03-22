@@ -26,7 +26,7 @@ cols:{(.+x)0}
 
  apd:100*((+ap)-mid)%mid; bpd:100*((+bp)-mid)%mid
 / max of 30-level delta of price > threshold
- c2la:1<max'apd; c2lb:1<max'bpd
+ c2la:1<|/'apd; c2lb:1<|/'bpd
 
  fa:c1a,'c2la
  / ka:i,'&/'fa[;1 2] / if both conditions satisfied(1&2) - trigger condition 3
