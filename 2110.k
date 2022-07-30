@@ -6,10 +6,12 @@
  m:m,'td:[[]td:@[m`d;&-29=m`d;-1]]
  i:&2=m`ot;
 
- c1a:(0.2*+/o[i]cav)<|/(o[i]cav); c1b:(0.2*+/o[i]cbv)<|/(o[i]cbv);
+ th:0.005
+ /c1a:(0.2*+/o[i]cav)<|/(o[i]cav); c1b:(0.2*+/o[i]cbv)<|/(o[i]cbv); 
+ c1a:(m[i]`sz)>th*+/'+o[i]cav[!25]
+ c1b:(m[i]`sz)>th*+/'+o[i]cbv[!25]
 
  ap:(o i)cap; bp:(o i)cbp
-
  mid:((&/ap)+|/bp)%2.0 
 
  c2la:1<|/'100*((+ap)-mid)%mid; c2lb:1<|/'100*((+bp)-mid)%mid
