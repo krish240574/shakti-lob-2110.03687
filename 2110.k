@@ -1,7 +1,8 @@
- co:(`$,/',/+$(`ap`as`bp`bs),/:\:$!30)
+ nl:30
+ co:(`$,/',/+$(`ap`as`bp`bs),/:\:$!nl)
  o:+co!`csv?1:"../ob.csv"
  m:+(`t`ot`oid`sz`p`d)!`csv?1:"../msg.csv"
- cav:co -3+\30#4; cbv:co -1+\30#4; cap:co -4+\30#4; cbp:co -2+\30#4
+ cav:co -3+\nl#4; cbv:co -1+\nl#4; cap:co -4+\nl#4; cbp:co -2+\nl#4
  
 
  m:m,'td:[[]td:@[m`d;&-29=m`d;-1]]
