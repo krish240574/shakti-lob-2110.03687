@@ -1,6 +1,6 @@
  co:(`$,/',/+$(`ap`as`bp`bs),/:\:$!30)
- o:+co!`csv?1:"ob.csv"
- m:+(`t`ot`oid`sz`p`d)!`csv?1:"msg.csv"
+ o:+co!`csv?1:"../ob.csv"
+ m:+(`t`ot`oid`sz`p`d)!`csv?1:"../msg.csv"
  cav:co -3+\30#4; cbv:co -1+\30#4; cap:co -4+\30#4; cbp:co -2+\30#4
  
 
@@ -8,7 +8,6 @@
  i:&2=m`ot
 
  th:0.005
- / c1a:(0.2*+/o[i]cav)<|/(o[i]cav); c1b:(0.2*+/o[i]cbv)<|/(o[i]cbv); 
  c1a:(m[i]`sz)>th*+/'+o[i]cav[!25]
  c1b:(m[i]`sz)>th*+/'+o[i]cbv[!25]
 
@@ -30,7 +29,7 @@ f:{
 
  th:avg k:f':ana
  m:m,'[[]an:@[&#m;?,/(ia@&th<k)-\:!200;1]]
- "m.csv"1:`csv@m
+ "../m.csv"1:`csv@m
 
 
  wsz:42
