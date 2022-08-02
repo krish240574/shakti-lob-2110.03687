@@ -1,7 +1,7 @@
  nl:30
  co:(`$,/',/+$(`ap`as`bp`bs),/:\:$!nl)
- o:+co!`csv?1:"../ob.csv"
- m:+(`t`ot`oid`sz`p`d)!`csv?1:"../msg.csv"
+ o:+co!`csv?1:"../SPY/ob.csv"
+ m:+(`t`ot`oid`sz`p`d)!`csv?1:"../SPY/msg.csv"
  cav:co -3+\nl#4; cbv:co -1+\nl#4; cap:co -4+\nl#4; cbp:co -2+\nl#4
  
 
@@ -19,8 +19,10 @@
 
  ia:i@&c1a & c2la 
  ib:i@&c1b & c2lb 
- ana:(+m `t`p)[ia-\:!200]
- anb:(+m `t`p)[ib-\:!200]
+ ta:_(min ia)%10
+ tb:_(min ib)%10
+ ana:(+m `t`p)[ia-\:!ta]
+ anb:(+m `t`p)[ib-\:!ta]
 
 f:{ 
  c:&~x[;0]=0,-1_x[;0];
@@ -29,8 +31,8 @@ f:{
  sqrt((+/(kp-akp)*(kp-akp)%abs kt)%(-1+#kt))}
 
  th:avg k:f':ana
- m:m,'[[]an:@[&#m;?,/(ia@&th<k)-\:!200;1]]
- "../m.csv"1:`csv@m
+ m:m,'[[]an:@[&#m;?,/(ia@&th<k)-\:!20000;1]]
+ "../SPY/m.csv"1:`csv@m
 
 
  wsz:42
