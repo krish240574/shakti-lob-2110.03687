@@ -34,8 +34,13 @@ f:{
 
 th:avg k:f':ana
 m:m,'[[]an:@[&#m;?,/(ia@&th<k)-\:!ta;1]]
-"../SPY/m.csv"1:`csv@m
 
+oa:+o cap
+doa:dev'oa
+moa:avg'oa
+noa:(oa[-1_1+!#oa]-moa[-1_!#oa])%doa[-1_!#oa]
+
+"../SPY/m.csv"1:`csv@m
 
 wsz:42
 w:{t:(!x)+\:!y;(t;last't)}[1+(#m)-wsz;wsz]
