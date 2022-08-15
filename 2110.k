@@ -6,7 +6,6 @@ o:+co!`csv?1:"../SPY/ob.csv"
 m:+(`t`ot`oid`sz`p`d)!`csv?1:"../SPY/msg.csv"
 cav:co -3+\nl#4; cbv:co -1+\nl#4; cap:co -4+\nl#4; cbp:co -2+\nl#4
  
-
 m:m,'td:[[]td:@[m`d;&-29=m`d;-1]]
 i:&2=m`ot
 
@@ -35,10 +34,11 @@ f:{
 th:avg k:f':ana
 m:m,'[[]an:@[&#m;?,/(ia@&th<k)-\:!ta;1]]
 
-oa:+o cap
-doa:dev'oa
-moa:avg'oa
-noa:(oa[-1_1+!#oa]-moa[-1_!#oa])%doa[-1_!#oa]
+oa:+o cap;ob:+o cbp
+doa:dev'oa;dob:dev'ob
+moa:avg'oa;mob:avg'ob
+noa:(oa[-1_1+!#oa]-moa[-1_!#oa])%doa[-1_!#oa];nob:(ob[-1_1+!#ob]-mob[-1_!#ob])%dob[-1_!#ob]
+m:(1_m),'(+cap!+noa),'(+cbp!+nob)
 
 "../SPY/m.csv"1:`csv@m
 
